@@ -27,7 +27,7 @@ int main()
 		printf("-");
 	}
 
-	for(int j = int_size - 1 ; j >= 0; j--)
+	for(int j = int_size - 1; j >= 0; j--)
 	{
 		binary[j] = ((decimal & (1u << j)) >> j);
 		if(binary[j] == 1)
